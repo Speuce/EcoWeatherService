@@ -2,7 +2,7 @@
   "name": "ecoweatherservice",
   "version": "1.0.0",
   "description": "Environmentally friendly weather forecasting",
-  "main": "index.js",
+  "main": "api/index.js",
   "scripts": {
     "test": "jest"
   },

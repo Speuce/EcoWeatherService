@@ -5,7 +5,7 @@ const app = express();
 
 const PORT = 3000;
 
-app.get('/', (req, res) => {
+app.get('/api', (req, res) => {
   const forecast = WeatherService.getForecast();
   console.log(forecast);
   res.json(forecast);
