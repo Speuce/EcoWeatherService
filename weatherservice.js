@@ -41,6 +41,7 @@ class WeatherService {
       this.date = date;
       this.temperatureC = temperatureC;
       this.summary = summary;
+      this.test = "hello";
     }
   
     get temperatureF() {
