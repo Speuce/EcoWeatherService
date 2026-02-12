@@ -1,0 +1,16 @@
+name: My Workflow
+
+on:
+  pull_request: 
+    branches: [master]
+
+jobs:
+  myjob:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6.0.2
+      - name: Install Dependencies
+        run: npm i
+      - name: Run Tests
+        run: npm test
